@@ -1,0 +1,27 @@
+body {
+  font-family: var(--font-main);
+}
+
+.bg-primary-color {
+  background-color: var(--bg-primary);
+}
+
+.bg-secondary-color {
+  background-color: var(--bg-secondary);
+}
+
+.bg-dark-color {
+  background-color: var(--bg-dark);
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+.btn {
+  border-radius: 0;
+}

@@ -1,0 +1,9 @@
+:root {
+  --font-main: "Lato", sans-serif;
+
+  --primary-color: #050505;
+  --secondary-color: #7a7a7a;
+  --bg-primary: #fff;
+  --bg-secondary: #ece8e2;
+  --bg-dark: #050505;
+}

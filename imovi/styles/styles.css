@@ -1,0 +1,8 @@
+@import "./design-tokens.css";
+@import "./base.css";
+@import "./layout/navbar.css";
+@import "./layout/slider.css";
+@import "./layout/mini-banners.css";
+@import "./layout/destaques.css";
+@import "./layout/info.css";
+@import "./layout/footer/footer.css";
