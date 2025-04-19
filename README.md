@@ -37,7 +37,8 @@ Este repositório foi projetado para ser uma fonte de aprendizado e inspiração
 
 Cada projeto está localizado em sua própria pasta, contendo os arquivos essenciais, como HTML, CSS e JS, que podem ser executados de forma independente.
 
-- **imovi**: Landing page e exemplos interativos de um projeto fictício, com foco em uma interface moderna e funcional.
+- **imovi**
+- **login-form**
 
 ## 🛠️ Tecnologias Utilizadas
 
