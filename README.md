@@ -1,5 +1,10 @@
 # 🌟 Bootstrap Projects
 
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)  
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+## 📋 Descrição
+
 **Bootstrap Projects** é um repositório dedicado a reunir uma coleção de projetos práticos desenvolvidos utilizando o poderoso framework [Bootstrap](https://getbootstrap.com/). O objetivo principal é demonstrar como aproveitar ao máximo os componentes, utilitários e layouts responsivos que o Bootstrap oferece, além de proporcionar exemplos prontos para uso em uma variedade de cenários.
 
 Este repositório contém desde simples landing pages até projetos mais completos, como portfólios e dashboards, todos com foco em interfaces modernas e responsivas. Ideal tanto para iniciantes que estão aprendendo Bootstrap quanto para desenvolvedores experientes em busca de inspiração e exemplos rápidos.
@@ -13,7 +18,7 @@ Este repositório contém desde simples landing pages até projetos mais complet
 
 ## 🧭 Guia de Navegação (Índice)
 
-- [✨ Funcionalidades](#funcionalidades)
+- [✅ Funcionalidades Principais](#funcionalidades-principais)
 - [📁 Estrutura](#estrutura)
 - [🛠️ Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [🖼️ Screenshots dos Projetos](#screenshots-dos-projetos)
@@ -24,7 +29,7 @@ Este repositório contém desde simples landing pages até projetos mais complet
 - [📫 Contribuir](#contribuir)
 - [📜 Licença](#licença)
 
-## ✨ Funcionalidades
+## ✅ Funcionalidades Principais
 
 Este repositório foi projetado para ser uma fonte de aprendizado e inspiração com exemplos práticos, incluindo:
 
@@ -40,11 +45,18 @@ Cada projeto está localizado em sua própria pasta, contendo os arquivos essenc
 - **imovi**
 - **login-form**
 
+```
+.
+├── imovi
+└── login-form
+```
+
+
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5**: Estrutura sólida e semântica para construção de páginas.
-- **CSS3**: Estilo e design utilizando os recursos mais recentes da linguagem.
-- **Bootstrap 5.3.5**: Framework CSS responsivo e de fácil utilização para desenvolvimento rápido de interfaces.
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML): Estrutura sólida e semântica para construção de páginas.
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS): Estilo e design utilizando os recursos mais recentes da linguagem.
+- [Bootstrap 5.3](https://getbootstrap.com/): Framework front-end moderno e responsivo.
 
 ## 🖼️ Screenshots dos Projetos
 
