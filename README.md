@@ -6,10 +6,10 @@ Este repositório contém desde simples landing pages até projetos mais complet
 
 ## 🎯 Objetivos
 
-*   Fornecer exemplos claros e concisos de como usar os componentes, utilitários e sistema de grid do Bootstrap.
-*   Demonstrar as práticas recomendadas para criar layouts responsivos e acessíveis.
-*   Incentivar a comunidade a contribuir com projetos e compartilhar conhecimento.
-*   Servir como um recurso de aprendizado para desenvolvedores de todos os níveis de experiência.
+- Fornecer exemplos claros e concisos de como usar os componentes, utilitários e sistema de grid do Bootstrap.
+- Demonstrar as práticas recomendadas para criar layouts responsivos e acessíveis.
+- Incentivar a comunidade a contribuir com projetos e compartilhar conhecimento.
+- Servir como um recurso de aprendizado para desenvolvedores de todos os níveis de experiência.
 
 ## 🧭 Guia de Navegação (Índice)
 
@@ -18,6 +18,7 @@ Este repositório contém desde simples landing pages até projetos mais complet
 - [🛠️ Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [🖼️ Screenshots dos Projetos](#screenshots-dos-projetos)
 - [Projeto 01: imovi](#projeto-01-imovi)
+- [Projeto 02: login-form](#projeto-02-login-form)
 - [🚀 Começando](#começando)
 - [👤 Sobre o Desenvolvedor](#sobre-o-desenvolvedor)
 - [📫 Contribuir](#contribuir)
@@ -37,7 +38,7 @@ Este repositório foi projetado para ser uma fonte de aprendizado e inspiração
 Cada projeto está localizado em sua própria pasta, contendo os arquivos essenciais, como HTML, CSS e JS, que podem ser executados de forma independente.
 
 - **imovi**: Landing page e exemplos interativos de um projeto fictício, com foco em uma interface moderna e funcional.
-  
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5**: Estrutura sólida e semântica para construção de páginas.
@@ -48,18 +49,38 @@ Cada projeto está localizado em sua própria pasta, contendo os arquivos essenc
 
 ### Projeto 01: imovi
 
-<span style="font-size: 1.3rem; font-weight: bold;">Landing Page (Versão Desktop)</span>
+<span style="font-size: 1.3rem; font-weight: bold;">Página Principal (Versão Desktop)</span>
 
-![Landing Page Desktop](./readme-images/screenshots/01-imovi-desktop.png)
+![Página Principal Desktop](./readme-images/screenshots/01/01-imovi-desktop.png)
 
-*Uma visão geral da página principal adaptada para visualização em dispositivos desktop.*
+_Uma visão geral da página principal adaptada para visualização em dispositivos desktop._
 
 <p align="center">
-  <span style="font-size: 1.3rem; font-weight: bold;">Landing Page (Versão Mobile)</span>
+  <span style="font-size: 1.3rem; font-weight: bold;">Página Principal (Versão Mobile)</span>
 </p>
 
 <p align="center">
-  <img src="./readme-images/screenshots/01-imovi-mobile.png" alt="Landing Page Mobile" />
+  <img src="./readme-images/screenshots/01/01-imovi-mobile.png" alt="Landing Page Mobile" />
+</p>
+
+<p align="center"><em>A página principal adaptada para visualização em dispositivos móveis, com layout otimizado para telas menores.</em></p>
+
+---
+
+### Projeto 02: login-form
+
+<span style="font-size: 1.3rem; font-weight: bold;">Página Principal (Versão Desktop)</span>
+
+![Página Principal Desktop](./readme-images/screenshots/02/02-login-form-desktop.png)
+
+_Uma visão geral da página principal adaptada para visualização em dispositivos desktop._
+
+<p align="center">
+  <span style="font-size: 1.3rem; font-weight: bold;">Página Principal (Versão Mobile)</span>
+</p>
+
+<p align="center">
+  <img src="./readme-images/screenshots/02/02-login-form-mobile.png" alt="Landing Page Mobile" />
 </p>
 
 <p align="center"><em>A página principal adaptada para visualização em dispositivos móveis, com layout otimizado para telas menores.</em></p>
@@ -70,44 +91,44 @@ Para começar a utilizar os projetos deste repositório, siga as etapas abaixo:
 
 1. **Clone o repositório:**
 
-    Clone o repositório para sua máquina local com o comando:
+   Clone o repositório para sua máquina local com o comando:
 
-    ```bash
-    git clone https://github.com/0nF1REy/bootstrap-projects.git
-    ```
+   ```bash
+   git clone https://github.com/0nF1REy/bootstrap-projects.git
+   ```
 
 2. **Entre no diretório do repositório:**
 
-    Navegue até o diretório do repositório clonado:
+   Navegue até o diretório do repositório clonado:
 
-    ```bash
-    cd bootstrap-projects
-    ```
+   ```bash
+   cd bootstrap-projects
+   ```
 
 3. **Escolha o projeto desejado:**
 
-    Cada projeto está em seu próprio diretório. Para acessar o projeto **imovi**, por exemplo, entre na pasta correspondente:
+   Cada projeto está em seu próprio diretório. Para acessar o projeto **imovi**, por exemplo, entre na pasta correspondente:
 
-    ```bash
-    cd imovi
-    ```
+   ```bash
+   cd imovi
+   ```
 
 4. **Abra o arquivo `index.html` no seu navegador:**
 
-    - **No Linux:**
-      ```bash
-      xdg-open index.html
-      ```
-    - **No macOS:**
-      ```bash
-      open index.html
-      ```
-    - **No Windows:**
-      ```bash
-      start index.html
-      ```
+   - **No Linux:**
+     ```bash
+     xdg-open index.html
+     ```
+   - **No macOS:**
+     ```bash
+     open index.html
+     ```
+   - **No Windows:**
+     ```bash
+     start index.html
+     ```
 
-    O arquivo será aberto no seu navegador padrão, permitindo que você veja a página funcionando em tempo real.
+   O arquivo será aberto no seu navegador padrão, permitindo que você veja a página funcionando em tempo real.
 
 ## 👤 Sobre o Desenvolvedor
 
