@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curso de Bootstrap 5</title>
+    <title>Aprendendo Sobre Bootstrap 5</title>
     <!-- <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,31 +14,357 @@
       rel="stylesheet"
       href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <script
+      src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
   </head>
   <body>
-    <h1>Curso de Bootstrap 5</h1>
+    <h1 class="text-center mt-3">Aprendendo Sobre Bootstrap 5</h1>
+    <hr />
+
+    <!-- Exemplo com container-fluid -->
+    <div class="container-fluid bg-info p-3">
+      <h2>Container-Fluid</h2>
+      <p>Este container ocupa toda a largura da tela em qualquer tamanho.</p>
+    </div>
+
+    <!-- Exemplo com container + breakpoint -->
+    <div class="container-sm bg-warning mt-3 p-3">
+      <h2>Container-SM</h2>
+      <p>
+        Este container tem largura total até o breakpoint "sm" (576px). A partir
+        disso, ele terá uma largura fixa.
+      </p>
+    </div>
+
+    <div class="container-md bg-success mt-3 p-3 text-white">
+      <h2>Container-MD</h2>
+      <p>
+        Este container tem largura total até o breakpoint "md" (768px). Ideal
+        para tablets e acima.
+      </p>
+    </div>
+
+    <div class="container-lg bg-danger mt-3 p-3 text-white">
+      <h2>Container-LG</h2>
+      <p>
+        Este container tem largura total até o breakpoint "lg" (992px). Ideal
+        para desktops.
+      </p>
+    </div>
+
+    <div class="container-xl bg-secondary mt-3 p-3 text-white">
+      <h2>Container-XL</h2>
+      <p>
+        Este container tem largura total até o breakpoint "xl" (1200px). Ideal
+        para telas grandes.
+      </p>
+    </div>
+
+    <hr />
+
+    <section class="container mt-5">
+      <div class="row">
+        <!-- Coluna de Breakpoints -->
+        <div class="col-md-3 mb-4">
+          <div class="bg-light p-3 rounded shadow-sm">
+            <h3 class="text-center">Breakpoints</h3>
+            <img
+              src="../images/01-breakpoints.png"
+              alt="Exemplo de Breakpoints"
+              class="img-fluid rounded"
+            />
+            <p class="mt-2">
+              Os breakpoints definem os pontos onde o layout muda com base no
+              tamanho da tela. São ideais para criar design responsivo.
+            </p>
+          </div>
+        </div>
+
+        <!-- Coluna de Containers -->
+        <div class="col-md-3 mb-4">
+          <div class="bg-light p-3 rounded shadow-sm">
+            <h3 class="text-center">Containers</h3>
+            <img
+              src="../images/02-containers.png"
+              alt="Exemplo de Container"
+              class="img-fluid rounded"
+            />
+            <p class="mt-2">
+              Containers controlam a largura máxima dos elementos. Use
+              <code>container</code> ou <code>container-fluid</code> para
+              definir o comportamento.
+            </p>
+          </div>
+        </div>
+
+        <!-- Coluna de Grid -->
+        <div class="col-md-3 mb-4">
+          <div class="bg-light p-3 rounded shadow-sm">
+            <h3 class="text-center">Grid</h3>
+            <img
+              src="../images/03-grid.png"
+              alt="Exemplo de Grid"
+              class="img-fluid rounded"
+            />
+            <p class="mt-2">
+              O sistema de grid do Bootstrap organiza o conteúdo em linhas e
+              colunas, permitindo criar layouts complexos e responsivos.
+            </p>
+          </div>
+        </div>
+
+        <!-- Coluna de Columns -->
+        <div class="col-md-3 mb-4">
+          <div class="bg-light p-3 rounded shadow-sm">
+            <h3 class="text-center">Columns</h3>
+            <img
+              src="../images/04-columns.png"
+              alt="Exemplo de Columns"
+              class="img-fluid rounded"
+            />
+            <p class="mt-2">
+              As colunas são os blocos de construção do grid. Use classes como
+              <code>col-md-6</code>, <code>col-sm-4</code> para definir o
+              tamanho em cada breakpoint.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5">
+      <h2>Exemplo Prático do Grid Bootstrap</h2>
+      <p>
+        O sistema de grid do Bootstrap permite criar layouts responsivos de
+        forma fácil e intuitiva. Veja alguns exemplos práticos abaixo:
+      </p>
+
+      <!-- Grid Simples com 2 colunas -->
+      <div class="row">
+        <div class="col-md-6 bg-primary text-white p-3">
+          Coluna 1 (50% em telas médias e maiores)
+        </div>
+        <div class="col-md-6 bg-secondary text-white p-3">
+          Coluna 2 (50% em telas médias e maiores)
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Grid com tamanhos diferentes em colunas -->
+      <div class="row">
+        <div class="col-md-3 bg-success text-white p-3">Coluna 1 (25%)</div>
+        <div class="col-md-9 bg-info text-white p-3">Coluna 2 (75%)</div>
+      </div>
+
+      <hr />
+
+      <!-- Grid com quebra de linha em telas pequenas -->
+      <div class="row">
+        <div class="col-sm-6 col-md-4 bg-warning p-3">
+          Coluna 1 (50% em telas pequenas, 33.33% em telas médias e maiores)
+        </div>
+        <div class="col-sm-6 col-md-4 bg-danger text-white p-3">
+          Coluna 2 (50% em telas pequenas, 33.33% em telas médias e maiores)
+        </div>
+        <div class="col-sm-12 col-md-4 bg-dark text-white p-3">
+          Coluna 3 (100% em telas pequenas, 33.33% em telas médias e maiores)
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Grid com ordenação -->
+      <div class="row">
+        <div class="col-md-4 order-md-2 bg-light p-3">
+          Coluna 1 (segunda em telas médias e maiores)
+        </div>
+        <div class="col-md-4 order-md-1 bg-light p-3">
+          Coluna 2 (primeira em telas médias e maiores)
+        </div>
+        <div class="col-md-4 order-md-3 bg-light p-3">
+          Coluna 3 (terceira em telas médias e maiores)
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Grid com offset -->
+      <div class="row">
+        <div class="col-md-6 offset-md-3 bg-primary text-white p-3">
+          Coluna com offset (centralizada em telas médias e maiores)
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5">
+      <h2>Entendendo as Colunas do Bootstrap</h2>
+      <p>
+        As colunas são os blocos de construção fundamentais do sistema de grid
+        do Bootstrap. Elas são sempre colocadas dentro de uma
+        <code>.row</code> e usam classes como <code>.col-*</code> para definir o
+        tamanho em diferentes breakpoints.
+      </p>
+
+      <h3>Comportamento Básico das Colunas</h3>
+      <p>
+        Se você não especificar uma largura para as colunas, elas se dividirão
+        igualmente pelo espaço disponível.
+      </p>
+
+      <div class="row">
+        <div class="col bg-info text-white p-3">Coluna 1</div>
+        <div class="col bg-success text-white p-3">Coluna 2</div>
+        <div class="col bg-warning text-dark p-3">Coluna 3</div>
+      </div>
+
+      <p class="mt-3">
+        Neste exemplo, cada coluna ocupa 1/3 da largura, independentemente do
+        tamanho da tela.
+      </p>
+
+      <hr />
+
+      <h3>Colunas com Larguras Definidas</h3>
+      <p>
+        Você pode usar as classes <code>.col-*</code> para definir a largura das
+        colunas em diferentes breakpoints. O asterisco representa um número de 1
+        a 12, que indica quantas colunas o elemento deve ocupar.
+      </p>
+
+      <div class="row">
+        <div class="col-md-3 bg-primary text-white p-3">col-md-3 (25%)</div>
+        <div class="col-md-6 bg-secondary text-white p-3">col-md-6 (50%)</div>
+        <div class="col-md-3 bg-primary text-white p-3">col-md-3 (25%)</div>
+      </div>
+
+      <p class="mt-3">
+        Em telas médias (md) e maiores, a primeira e a terceira colunas ocuparão
+        25% da largura, enquanto a segunda coluna ocupará 50%.
+      </p>
+
+      <hr />
+
+      <h3>Colunas Responsivas</h3>
+      <p>
+        Você pode combinar classes <code>.col-*</code> para criar layouts
+        responsivos que se adaptam a diferentes tamanhos de tela.
+      </p>
+
+      <div class="row">
+        <div class="col-sm-6 col-md-4 bg-danger text-white p-3">
+          col-sm-6 col-md-4
+          <br />
+          (50% em telas pequenas, 33.33% em telas médias e maiores)
+        </div>
+        <div class="col-sm-6 col-md-4 bg-success text-white p-3">
+          col-sm-6 col-md-4
+          <br />
+          (50% em telas pequenas, 33.33% em telas médias e maiores)
+        </div>
+        <div class="col-sm-12 col-md-4 bg-info text-white p-3">
+          col-sm-12 col-md-4
+          <br />
+          (100% em telas pequenas, 33.33% em telas médias e maiores)
+        </div>
+      </div>
+
+      <p class="mt-3">
+        Em telas pequenas (sm), cada coluna ocupará 50% da largura. Em telas
+        médias (md) e maiores, cada coluna ocupará 33.33% da largura. A terceira
+        coluna ocupará 100% da largura em telas pequenas.
+      </p>
+    </section>
+
     <hr />
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, libero
       accusantium quidem pariatur dolor eveniet at iure dolores non, nostrum
-      voluptatum omnis consequuntur, neque accusamus? Provident voluptas ut
-      obcaecati, porro non quibusdam id in vel nemo! Reprehenderit illo expedita
-      impedit voluptate tenetur magnam distinctio sit officiis praesentium
-      illum? Quam corrupti atque esse repellendus facilis. Explicabo molestias
-      nihil delectus quae nulla dicta ipsum sapiente corporis consequatur
-      mollitia aspernatur accusamus ad molestiae odio vitae eveniet porro
-      recusandae, voluptates sunt. Minus alias porro nam perspiciatis libero,
-      excepturi voluptas est in aliquam harum ipsam non et accusantium
-      voluptatibus dolorum nostrum quasi debitis rerum reiciendis.
+      voluptatum omnis consequuntur...
     </p>
+
+    <section>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr/>
+      <caption>
+        Título da tabela
+      </caption>
+      <table class="table table-striped table-hover table-bordered table-sm">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+      <caption>
+        Legenda da tabela
+      </caption>
+    </section>
+
     <h3>
-      <a href="./index.html"></a>
+      <a href="./index.html">Voltar ao Topo</a>
     </h3>
+
     <!-- <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
       crossorigin="anonymous"
     ></script> -->
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
   </body>
 </html>
