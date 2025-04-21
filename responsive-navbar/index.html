@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Responsiva</title>
+
+    <!-- Importando Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar responsiva do Bootstrap -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <!-- navbar: define a barra de navegação padrão do Bootstrap -->
+      <!-- navbar-expand-lg: torna a navbar colapsável em telas menores que "large" (lg) -->
+      <!-- bg-light: define o fundo da navbar com um tom claro -->
+
+      <div class="container-fluid">
+        <!-- container-fluid: cria um container com largura total da tela (sem margens laterais fixas) -->
+
+        <a class="navbar-brand" href="#">Logo</a>
+        <!-- navbar-brand: estiliza o nome/logo do site na navbar -->
+
+        <!-- Botão que aparece em telas pequenas para expandir a navbar -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+          <!-- navbar-toggler-icon: ícone "hambúrguer" (três linhas horizontais) padrão do Bootstrap -->
+        </button>
+
+        <!-- Menu colapsável que aparece ao clicar no botão em telas pequenas -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- collapse: indica que o conteúdo será ocultável -->
+          <!-- navbar-collapse: estilo padrão para o conteúdo expandido/colapsado da navbar -->
+
+          <ul class="navbar-nav">
+            <!-- navbar-nav: estiliza a lista como itens de navegação -->
+
+            <li class="nav-item">
+              <!-- nav-item: define um item de navegação individual -->
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
+              <!-- nav-link: estilo dos links da navbar -->
+              <!-- active: indica que este é o link ativo (página atual) -->
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Serviços</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Conteúdo principal da página -->
+    <div class="container">
+      <!-- container: cria um container centralizado com margens laterais automáticas e espaçamento interno (padding) padrão -->
+      <h1>Bem-vindo!</h1>
+      <p>Este é um exemplo simples de uma Navbar responsiva com Bootstrap 5.</p>
+    </div>
+
+    <!-- Importando JavaScript do Bootstrap para funcionalidades como o menu colapsável -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
